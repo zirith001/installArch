@@ -1,14 +1,36 @@
 # Basic Installation of ArchLinux with UTM on MacOS
 
+I have tried Virtual Box, Parallels, Vmware Fusion and UTM with lots of distros like Fedora, Ubuntu, Lubuntu, Arch, LinuxMint, Pop-OS. But all of them were creating a lot of heat on the machine except Arch.
+
+Arch is stable even after installing i3wm but if you install Desktop Environments like Gnome, it is heavier on RAM.
+I am using 16GB Intel Chip Macbook Pro for this.
+
+Please note that I have allocated 3GB of RAM to Arch in UTM and 64 GB of space.
+
+On MacOS, installing Arch is the best option that I have encountered while trying all other distros.
+
 ### Installing Arch with archinstall
 
+This guide assumes that you can install arch linux using archinstall script. 
 ```bash
 sudo pacman -Syyu
 sudo pacman -Syy archinstall
 archinstall
 ```
+Follow the wizard and once you are all done, do a 
+```
+sudo shutdown
+```
 
-### After installing arch 
+Once arch linux is installed, go to your machine on UTM and remove archlinux iso by clicking on CD/DVD drop-down 
+
+![select CD/DVD dropdown](Remove1.png)
+
+and clicking Clear
+
+![click Clear](Remove2.png)
+
+### After installing arch
 
 Install general packages that are required for i3wm and better display
 ```bash
@@ -93,7 +115,6 @@ Place following file in ~/.Xresources
 ! ██╔╝ ██╗██║  ██║███████╗███████║╚██████╔╝╚██████╔╝██║  ██║╚██████╗███████╗███████║
 ! ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚══════╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═╝ ╚═════╝╚══════╝╚══════╝
 !
-! Xresources Config File by Arfan Zubi
 
 
 !! Appearance
