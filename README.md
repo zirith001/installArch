@@ -61,14 +61,17 @@ and enable Retina Mode
 
 ### Change default login terminal to alacritty
 
-Modify /usr/bin/i3-sensible-terminal, and change the order of the terminals. 
+Modify `/usr/bin/i3-sensible-terminal`, and change the order of the terminals. 
 Ex: by default the file is something like:
 
+```
 for terminal in "$TERMINAL" x-terminal-emulator urxvt (etc etc) alacritty (etc etc)
+```
 
 You could modify it so that alacritty appears in the list before urxvt, and is therefore loaded first:
 
+```
 for terminal in "$TERMINAL" alacritty x-terminal-emulator urxvt (etc etc)
+```
 
-
-NOTE: Special thanks to [3rfaan](https://github.com/3rfaan). This repo is hugely inspired by his work.
+**NOTE: Special thanks to [3rfaan](https://github.com/3rfaan). This repo is hugely inspired by his work.**
