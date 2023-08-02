@@ -70,4 +70,4 @@ You could modify it so that alacritty appears in the list before urxvt, and is t
 for terminal in "$TERMINAL" alacritty x-terminal-emulator urxvt (etc etc)
 
 
-Special thanks to [https://github.com/3rfaan]3rfaan. This repo is hugely inspired by his work.
+NOTE: Special thanks to [3rfaan](https://github.com/3rfaan). This repo is hugely inspired by his work.
