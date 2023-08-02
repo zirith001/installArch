@@ -42,9 +42,10 @@ cd ins;
 git clone https://github.com/zirith001/installArch.git .
 bash install.sh;
 ```
+5. You will be prompted with i3wm welcome manager. Just follow the wizard by pressing Enter.
 
 
-Once your machine is shutdown, in UTM, in settings for the machine, change:
+Now again shutdown your machine with `sudo shutdown now`, and in UTM, go to settings of the machine, change:
 
 Display: Upscaling: Nearest Neighbour
 ![Prev](Screenshot1.png)
@@ -58,7 +59,7 @@ and enable Retina Mode
 ![New](Screenshot2.png)
 
 
-Change default login terminal to alacritty
+### Change default login terminal to alacritty
 
 Modify /usr/bin/i3-sensible-terminal, and change the order of the terminals. 
 Ex: by default the file is something like:
