@@ -1,4 +1,4 @@
-# Basic Installation of ArchLinux with UTM on MacOS
+# Installing Arch with i3 using UTM on MacOS
 
 I have tried Virtual Box, Parallels, Vmware Fusion and UTM with lots of distros like Fedora, Ubuntu, Lubuntu, Arch, LinuxMint, Pop-OS. But all of them were creating a lot of heat on the machine except Arch.
 
