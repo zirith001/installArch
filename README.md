@@ -40,7 +40,6 @@ and clicking Clear
 mkdir ins;
 cd ins;
 git clone https://github.com/zirith001/installArch.git .
-cd installArch;
 bash install.sh;
 ```
 
